@@ -3,9 +3,8 @@
 > 不规则形状按钮点击
 
 - 实现方式有两种
-
- - a. 自定义绘制按钮，然后判断 `pointInside` 时是否在其 `mask` 上.
- - b. 采用图片来实现按钮的展示，图片不可点击部分为透明色，然后判断 `pointInside` 时是否有色值。
+	- a. 自定义绘制按钮，然后判断 `pointInside` 时是否在其 `mask` 上.
+	- b. 采用图片来实现按钮的展示，图片不可点击部分为透明色，然后判断 `pointInside` 时是否有色值。
 
 > 此demo主要讲解第二种方式，第一种方法比较容易理解，请自行参考demo。
 
@@ -32,4 +31,5 @@
 - 2.将你的按钮继承自 `SectorButton` 或者 将IB中的按钮的class与 `SectorButton` 关联
 
 --
+
 # BY QiuFairy 
